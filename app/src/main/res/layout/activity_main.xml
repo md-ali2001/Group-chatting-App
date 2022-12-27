@@ -21,14 +21,14 @@
 
         <EditText
             android:id="@+id/keytext"
+            style="@style/TextAppearance.AppCompat.Small"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2.5"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:textSize="25dp"
+
             android:hint="YOUR NAME-MESSAGE NO."
-            />
+            android:inputType="textPersonName" />
 
 
         <EditText
@@ -36,9 +36,10 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2.5"
+            style="@style/TextAppearance.AppCompat.Small"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textSize="25dp"
+
             android:hint="MESSAGE TO SEND" />
 
         <Button
@@ -51,7 +52,7 @@
 
             android:layout_weight="2"
             android:text="SEND MESSAGE"
-            android:textSize="25dp"
+            style="@style/TextAppearance.AppCompat.Small"
             />
 
         <TextView
@@ -59,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@android:color/holo_red_dark"
-            android:textSize="20dp"
+            style="@style/TextAppearance.AppCompat.Small"
             android:textAlignment="center"
             android:layout_weight="10" />
 
@@ -71,7 +72,7 @@
             android:backgroundTint="@color/black"
             android:textColor="@color/white"
             android:text="RECIEVE MESSAGES"
-            android:textSize="25dp" />
+            style="@style/TextAppearance.AppCompat.Small" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
